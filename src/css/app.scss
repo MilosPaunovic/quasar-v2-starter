@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: $primary;
+}
+
+.q-notification {
+  width: 400px;
+}
+
+.q-field__bottom {
+  padding-left: 4px;
+}
+
+input {
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}

@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  quasar:
+    build:
+      context: ./node/
+      target: 'local'
+    ports:
+      - '7200:7200'
+    volumes:
+      - '../:/app:delegated'
+    command: /bin/sh -c "npm i && npm run dev:local"
